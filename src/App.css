@@ -32,3 +32,8 @@ margin: 2px;
 .App-content {
   margin-top: 90px;
 }
+
+footer {
+  color: gray;
+  font-size: small;
+}

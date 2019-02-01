@@ -27,6 +27,7 @@ class App extends Component {
               } />
             </Switch>
           </div>
+          <footer>version: 0.0.1 (beta)</footer>
         </div>
       </Router>
     );
