@@ -8,7 +8,7 @@
                 "os": "iOS",
                 "version": "1.0.0",
                 "env": "LAB",
-                "url": "itms-services://?action=download-manifest&url=https://rmichelberger.github.io/appstore/apps/JBMobile/ios/JBMobile_1.0.0.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/JBMobile_1.0.0.plist"
             },
             {
                 "name": "JB Mobile",
@@ -34,7 +34,7 @@
                 "name": "Test Lab",
                 "os": "iOS",
                 "version": "1.0.0",
-                "url": "itms-services://?action=download-manifest&url=https://rmichelberger.github.io/appstore/apps/TestLab/ios/TestLab_1.0.0.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/TestLab/ios/TestLab_1.0.0.plist"
             },
             {
                 "name": "Test Lab",
@@ -70,7 +70,7 @@
                 "name": "Pre Market",
                 "os": "iOS",
                 "version": "1.0.0",
-                "url": "itms-services://?action=download-manifest&url=https://myWeb.com/MY_TEST_APP/manifest.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io"
             },
             {
                 "name": "Pre Market",
