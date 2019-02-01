@@ -1,0 +1,22 @@
+.OSStatistics {
+    text-align: center;
+}
+
+.PieChart {
+    width: 30%;
+    margin: auto;
+}
+
+.Table { 
+    margin: 0px auto; 
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 15px;
+  }
