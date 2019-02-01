@@ -2,7 +2,7 @@
     {
         "appName": "JB Mobile",
         "appIcon": "./apps/JBMobile/icon.png",
-        "apps": [
+        "__apps__": [
             {
                 "name": "JB Mobile",
                 "os": "iOS",

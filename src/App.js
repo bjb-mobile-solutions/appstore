@@ -17,8 +17,14 @@ class App extends Component {
           </div>
           <div className="App-content">
             <Switch>
-              <Route exact path='/' component={AppStore} />
               <Route path='/devices' component={DeviceList} />
+              <Route exact path='/' component={AppStore} />
+              <Route render={() =>
+                <div>
+                  <h1>Oops...</h1>
+                  <h2>Something went wrong :(</h2>
+                </div>
+              } />
             </Switch>
           </div>
         </div>
