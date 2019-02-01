@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/appstore/static/js/runtime~main.e3d8a7cf.js"
   },
   {
-    "revision": "1e3e386e441bd8a79bed",
-    "url": "/appstore/static/js/main.1e3e386e.chunk.js"
+    "revision": "01b087855f93d8d4b06e",
+    "url": "/appstore/static/js/main.01b08785.chunk.js"
   },
   {
     "revision": "00b5649620f7529ca676",
     "url": "/appstore/static/js/1.00b56496.chunk.js"
   },
   {
-    "revision": "1e3e386e441bd8a79bed",
+    "revision": "01b087855f93d8d4b06e",
     "url": "/appstore/static/css/main.934de6a3.chunk.css"
   },
   {
-    "revision": "8f550cefbd432ebf4b056a412e4f63ba",
+    "revision": "3f4c607ac4de86efd85ecb1a46105680",
     "url": "/appstore/index.html"
   }
 ];
