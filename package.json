@@ -1,7 +1,7 @@
 {
   "name": "app_site",
   "version": "0.1.0",
-  "homepage": "https://rmichelberger.github.io/appstore",
+  "homepage": "https://bjb-mobile-solutions.github.io/appstore",
   "private": true,
   "dependencies": {
     "firebase": "^5.8.1",
