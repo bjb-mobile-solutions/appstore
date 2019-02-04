@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import './App.css';
 import AppStore from './components/appstore/AppStore';
-import DeviceList from './components/devices//DeviceList';
 
 class App extends Component {
   render() {
@@ -17,7 +15,6 @@ class App extends Component {
           </div>
           <div className="App-content">
             <Switch>
-              <Route path='/devices' component={DeviceList} />
               <Route exact path='/' component={AppStore} />
               <Route render={() =>
                 <div>
