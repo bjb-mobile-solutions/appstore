@@ -4,7 +4,6 @@
   "homepage": "https://bjb-mobile-solutions.github.io/appstore",
   "private": true,
   "dependencies": {
-    "firebase": "^5.8.1",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
