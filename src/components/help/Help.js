@@ -36,31 +36,33 @@ function Help(props) {
                 <h2 id="android">Android</h2>
                 <p>1. Open the ≪https://bjb-mobile-banking.github.io/appstore≫ URL in Chrome on the mobile phone / tablet</p>
                 <p>2. Tap on the link of the app version you want to install</p>
-                <img src={imageAndroid1} />
+                <img src={imageAndroid1} alt="screen shot" />
                 <p>3. Tap on 'Download' in the pop-up</p>
-                <img src={imageAndroid2} />
+                <img src={imageAndroid2} alt="screen shot" />
                 <p>4. Tap on 'Open'</p>
-                <img src={imageAndroid3} />
+                <img src={imageAndroid3} alt="screen shot" />
                 <p>5.a If you have a security warning, that apps can't be installed from unknown sources, click on 'Settings' on the pop-up</p>
-                <img src={imageAndroid4} />
+                <img src={imageAndroid4} alt="screen shot" />
                 <p>5.b Allow apps to be installed form 'Unknown sources'</p>
-                <img src={imageAndroid5} />
+                <img src={imageAndroid5} alt="screen shot" />
+                <p></p>
+                <img src={imageAndroid6} alt="screen shot" />
                 <p>6. Tap on 'Install'</p>
-                <img src={imageAndroid7} />
+                <img src={imageAndroid7} alt="screen shot" />
                 <p>7. Wait until install finishes..</p>
-                <img src={imageAndroid8} />
+                <img src={imageAndroid8} alt="screen shot" />
                 <p>8. Tap on 'Open'</p>
-                <img src={imageAndroid9} />
+                <img src={imageAndroid9} alt="screen shot" />
                 <h2 id="ios">iOS</h2>
                 <p>1. Open the ≪https://bjb-mobile-banking.github.io/appstore≫ URL in Safari on the mobile phone / tablet</p>
                 <p>2. Tap on the link of the app version you want to install</p>
-                <img src={imageiOS1} />
+                <img src={imageiOS1} alt="screen shot" />
                 <p>3. Tap on 'Install' in the pop-up</p>
-                <img src={imageiOS2} />
+                <img src={imageiOS2} alt="screen shot" />
                 <p>4. Wait until loading finishes..</p>
-                <img src={imageiOS3} />
+                <img src={imageiOS3} alt="screen shot" />
                 <p>5. Tap on app icon to open app</p>
-                <img src={imageiOS4} />
+                <img src={imageiOS4} alt="screen shot" />
             </div>
         </div>
     );

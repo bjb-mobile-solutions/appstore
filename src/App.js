@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
+import logo from './fonts/juliusbaer-logo.svg';
 import help from './fonts/help.svg';
 import './App.css';
 import AppStore from './components/appstore/AppStore';
@@ -13,11 +14,11 @@ class App extends Component {
         <div className="App">
           <div className="App-header">
             <div className="App-header-text">
-              <h1>Julius Bär</h1>
+            <img src={logo} className="Logo" alt="Julius Bär" />
               <p>Internal App Store</p>
             </div>
             <div className="App-header-help">
-              <Link to="/help"><img src={help} className="Help-Logo" alt="Help" /></Link>
+              <Link to="/help"><img src={help} alt="Help" /></Link>
             </div>
           </div>
           <div className="App-content">
@@ -32,7 +33,7 @@ class App extends Component {
               } />
             </Switch>
           </div>
-          <footer>version: 0.0.2 (alpha)</footer>
+          <footer>version: 1.0.0</footer>
         </div>
       </Router>
     );
