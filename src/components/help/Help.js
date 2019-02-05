@@ -52,7 +52,7 @@ function Help(props) {
                 <p>8. Tap on 'Open'</p>
                 <img src={imageAndroid9} />
                 <h2 id="ios">iOS</h2>
-                <p>1. Open the ≪https://bjb-mobile-banking.github.io/appstore≫ URL in Chrome on the mobile phone / tablet</p>
+                <p>1. Open the ≪https://bjb-mobile-banking.github.io/appstore≫ URL in Safari on the mobile phone / tablet</p>
                 <p>2. Tap on the link of the app version you want to install</p>
                 <img src={imageiOS1} />
                 <p>3. Tap on 'Install' in the pop-up</p>
