@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "82630844e9ed47448df4e8a7569936cf",
-    "url": "/appstore/static/media/5.82630844.png"
+    "revision": "d9a8cd59f7cbed640d124eed3d87213a",
+    "url": "/appstore/static/media/4.d9a8cd59.png"
   },
   {
-    "revision": "0ad60008892a90824405",
-    "url": "/appstore/static/css/main.e223bc44.chunk.css"
+    "revision": "02411bcc2d927b73e494",
+    "url": "/appstore/static/css/main.28820473.chunk.css"
   },
   {
-    "revision": "c1bf106448d091bdc1a3",
-    "url": "/appstore/static/js/1.c1bf1064.chunk.js"
+    "revision": "15382e60d42da3ed698a",
+    "url": "/appstore/static/js/1.15382e60.chunk.js"
   },
   {
     "revision": "e3d8a7cf696e63b6179b",
     "url": "/appstore/static/js/runtime~main.e3d8a7cf.js"
+  },
+  {
+    "revision": "7ad68856991c4b270aba82d1c969fe78",
+    "url": "/appstore/static/media/juliusbaer-logo.7ad68856.svg"
   },
   {
     "revision": "a1c4cf318c58ab2950b8e78edc7caa7c",
@@ -36,12 +40,16 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/3.af307a54.png"
   },
   {
-    "revision": "d9a8cd59f7cbed640d124eed3d87213a",
-    "url": "/appstore/static/media/4.d9a8cd59.png"
+    "revision": "02411bcc2d927b73e494",
+    "url": "/appstore/static/js/main.02411bcc.chunk.js"
   },
   {
-    "revision": "0ad60008892a90824405",
-    "url": "/appstore/static/js/main.0ad60008.chunk.js"
+    "revision": "82630844e9ed47448df4e8a7569936cf",
+    "url": "/appstore/static/media/5.82630844.png"
+  },
+  {
+    "revision": "d96ca1a4339abb31df0789513bdf8627",
+    "url": "/appstore/static/media/6.d96ca1a4.png"
   },
   {
     "revision": "03a4c6618b6236d23105a5ebba15e223",
@@ -72,11 +80,7 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/4.402e14ea.PNG"
   },
   {
-    "revision": "d96ca1a4339abb31df0789513bdf8627",
-    "url": "/appstore/static/media/6.d96ca1a4.png"
-  },
-  {
-    "revision": "41773b11ea8ca472811ae4b16abf0d85",
+    "revision": "1c7ae112f00f4b849b23b259bc584e05",
     "url": "/appstore/index.html"
   }
 ];
