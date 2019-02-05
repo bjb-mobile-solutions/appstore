@@ -1,3 +1,23 @@
 .AppItems {
     padding: 10px;
 }
+
+/* unvisited link */
+a:link {
+    color: #141e55;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #141e55;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #b0aa7e;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #b0aa7e;
+  }

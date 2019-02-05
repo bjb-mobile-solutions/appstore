@@ -1,3 +1,18 @@
+/* @font-face {
+  font-family: 'Verlag SSm 3r';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Verlag SSm 3r'), local('OpenSans'),
+       url('../fonts/open-sans-v13-latin-regular.eot?#iefix') format('embedded-opentype'),
+} */
+
+/* h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Verlag SSm 3r", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #001489;
+} */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3ec;
 }
 
 ul {

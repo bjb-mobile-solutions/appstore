@@ -1,3 +1,7 @@
 .AppItem {
     padding: 5px;
 }
+
+.AppItem a {
+    font-size: large;
+}

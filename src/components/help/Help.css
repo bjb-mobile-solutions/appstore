@@ -1,0 +1,20 @@
+.Close-button {
+    float: left;
+    margin-left: 19px;
+    margin-top: -10px;
+
+
+    /* overflow: hidden; */
+    /* position: fixed; */
+  
+}
+
+.Help-content {
+    clear: both;
+    width: 90%;
+    margin: auto;
+  }
+
+.Help-content p {
+    text-align: left;
+}
