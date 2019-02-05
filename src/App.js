@@ -12,12 +12,10 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <div className="App-header">
-            <Link to="/">
-              <div className="App-header-text">
-                <h1>Julius Bär</h1>
-                <p>Internal App Store</p>
-              </div>
-            </Link>
+            <div className="App-header-text">
+              <h1>Julius Bär</h1>
+              <p>Internal App Store</p>
+            </div>
             <div className="App-header-help">
               <Link to="/help"><img src={help} className="Help-Logo" alt="Help" /></Link>
             </div>
