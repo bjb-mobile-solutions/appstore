@@ -6,30 +6,30 @@
             {
                 "name": "JB Mobile",
                 "os": "iOS",
-                "version": "3.1.26",
+                "version": "3.1.30",
                 "env": "LAB",
-                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.26_LAB_iOS_JBMobileApp_2019-02-02.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.30_LAB_iOS_JBMobileApp_2019-02-12.plist"
             },
             {
                 "name": "JB Mobile",
                 "os": "iOS",
-                "version": "3.1.26",
+                "version": "3.1.30",
                 "env": "UAT",
-                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.26_UAT_iOS_JBMobileApp_2019-02-02.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.30_UAT_iOS_JBMobileApp_2019-02-12.plist"
             },
             {
                 "name": "JB Mobile",
                 "os": "Android",
-                "version": "3.1.26",
+                "version": "3.1.30",
                 "env": "LAB",
-                "url": "./apps/JBMobile/android/3.1.26_LAB_Android_JBMobileApp_2019-02-02.apk"
+                "url": "./apps/JBMobile/android/3.1.30_LAB_Android_JBMobileApp_2019-02-12.apk"
             },
             {
                 "name": "JB Mobile",
                 "os": "Android",
-                "version": "3.1.26",
+                "version": "3.1.30",
                 "env": "UAT",
-                "url": "./apps/JBMobile/android/3.1.26_UAT_Android_JBMobileApp_2019-02-02.apk"
+                "url": "./apps/JBMobile/android/3.1.30_UAT_Android_JBMobileApp_2019-02-12.apk"
             }
         ]
     },
