@@ -34,16 +34,16 @@
             {
                 "name": "JB Mobile",
                 "os": "Android",
-                "version": "3.1.30",
+                "version": "3.1.38",
                 "env": "LAB",
-                "url": "./apps/JBMobile/android/3.1.30_LAB_Android_JBMobileApp_2019-02-12.apk"
+                "url": "./apps/JBMobile/android/3.1.38_LAB_Android_JBMobileApp_2019-02-19.apk"
             },
             {
                 "name": "JB Mobile",
                 "os": "Android",
-                "version": "3.1.30",
+                "version": "3.1.38",
                 "env": "UAT",
-                "url": "./apps/JBMobile/android/3.1.30_UAT_Android_JBMobileApp_2019-02-12.apk"
+                "url": "./apps/JBMobile/android/3.1.38_UAT_Android_JBMobileApp_2019-02-19.apk"
             }
         ]
     },
