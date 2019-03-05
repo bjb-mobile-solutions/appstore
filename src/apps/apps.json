@@ -13,16 +13,16 @@
             {
                 "name": "JB Mobile",
                 "os": "iOS",
-                "version": "3.1.49",
+                "version": "3.1.50",
                 "env": "UAT",
-                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.49_UAT_iOS_JBMobileApp_2019-03-04.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.50_UAT_iOS_JBMobileApp_2019-03-05.plist"
             },
             {
                 "name": "JB Mobile",
                 "os": "iOS",
-                "version": "3.1.49",
+                "version": "3.1.50",
                 "env": "LAB",
-                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.49_LAB_iOS_JBMobileApp_2019-03-04.plist"
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.50_LAB_iOS_JBMobileApp_2019-03-05.plist"
             },
             {
                 "name": "JB Mobile",
@@ -34,16 +34,16 @@
             {
                 "name": "JB Mobile",
                 "os": "Android",
-                "version": "3.1.49",
+                "version": "3.1.50",
                 "env": "UAT",
-                "url": "./apps/JBMobile/android/3.1.49_UAT_Android_JBMobileApp_2019-03-04.apk"
+                "url": "./apps/JBMobile/android/3.1.50_UAT_Android_JBMobileApp_2019-03-05.apk"
             },
             {
                 "name": "JB Mobile",
                 "os": "Android",
-                "version": "3.1.49",
+                "version": "3.1.50",
                 "env": "LAB",
-                "url": "./apps/JBMobile/android/3.1.49_LAB_Android_JBMobileApp_2019-03-04.apk"
+                "url": "./apps/JBMobile/android/3.1.50_LAB_Android_JBMobileApp_2019-03-05.apk"
             }        ]
     },
     {
