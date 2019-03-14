@@ -1,7 +1,7 @@
 [
     {
         "appName": "JB Mobile",
-        "appIcon": "../apps/JBMobile/icon.png",
+        "appIcon": "./apps/JBMobile/icon.png",
         "apps": [
             {
                 "name": "JB Mobile",
@@ -48,7 +48,7 @@
     },
     {
         "appName": "Test Lab",
-        "appIcon": "../apps/TestLab/icon.png",
+        "appIcon": "./apps/TestLab/icon.png",
         "apps": [
             {
                 "name": "Test Lab",
@@ -66,7 +66,7 @@
     },
     {
         "appName": "Investment Insights",
-        "appIcon": "../apps/InvestmentInsights/icon.png",
+        "appIcon": "./apps/InvestmentInsights/icon.png",
         "__apps__": [
             {
                 "name": "Investment Insights",
@@ -84,7 +84,7 @@
     },
     {
         "appName": "Pre Market",
-        "appIcon": "../apps/PreMarket/icon.png",
+        "appIcon": "./apps/PreMarket/icon.png",
         "__apps__": [
             {
                 "name": "Pre Market",
