@@ -1,0 +1,32 @@
+input {
+    width: 80%;
+    height: 25px;
+    margin: 8px;
+  }
+ 
+button {
+    width: 80%;
+    height: 30px;
+    background:#141e55;
+    border: 1px solid #141e55;
+    color: white;
+}
+ 
+button:hover {
+    background:white;
+    color: #141e55;
+}
+
+button:active {
+    background:white;
+    color: #141e55;
+}
+
+
+button:disabled {
+    background:darkgray;
+    color: gray;
+    border: none;
+}
+
+  

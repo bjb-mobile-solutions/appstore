@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+import * as ROUTES from '../../constants/routes';
+
 
 import './Help.css';
 import close from '../../fonts/close.svg';
@@ -24,7 +26,7 @@ function Help(props) {
 
     return (
         <div>
-            <Link to="/"><img src={close} className="Close-button" alt="Close" /></Link>
+            <Link to={ROUTES.APPS}><img src={close} className="Close-button" alt="Close" /></Link>
             <p>
                 <AnchorLink offset='80' href='#android'>Android</AnchorLink>
             </p>
