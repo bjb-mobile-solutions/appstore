@@ -6,6 +6,7 @@ import help from './fonts/help.svg';
 import './App.css';
 import AppStore from './components/appstore/AppStore';
 import Help from './components/help/Help';
+import Login from './components/login/Login';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           <div className="App-content">
             <Switch>
               <Route exact path='/' component={AppStore} />
+              <Route exact path='/login' component={Login} />
               <Route exact path='/help' component={Help} />
               <Route render={() =>
                 <div>

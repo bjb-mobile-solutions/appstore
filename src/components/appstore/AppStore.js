@@ -4,6 +4,7 @@ import './AppStore.css';
 import AppItems from './AppItems';
 
 import appJSON from '../../apps/apps.json';
+import Login from '../login/Login';
 
 function AppStore(props) {
 
@@ -14,7 +15,8 @@ function AppStore(props) {
     );
 
     return (
-        <ul className="AppList">{apps}</ul>
+        <Login/>
+        // <ul className="AppList">{apps}</ul>
     );
 
 }
