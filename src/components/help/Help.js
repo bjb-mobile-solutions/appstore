@@ -26,7 +26,7 @@ function Help(props) {
 
     return (
         <div>
-            <Link to={ROUTES.APPS}><img src={close} className="Close-button" alt="Close" /></Link>
+            <Link to={ROUTES.LANDING}><img src={close} className="Close-button" alt="Close" /></Link>
             <p>
                 <AnchorLink offset='80' href='#android'>Android</AnchorLink>
             </p>

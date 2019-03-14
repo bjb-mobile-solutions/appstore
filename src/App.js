@@ -77,8 +77,7 @@ class App extends Component {
 
 const SwitchAuth = (props) => (
   <Switch>
-    <Route exact path={ROUTES.APPS} render={() => <AppStore authUser={props.authUser} />} />
-    <Route exact path={ROUTES.LANDING} component={SignInPage} />
+    <Route exact path={ROUTES.LANDING} render={() => <AppStore authUser={props.authUser} />} />
     <Route exact path={ROUTES.HELP} component={Help} />
     <Route render={() =>
       <div>
