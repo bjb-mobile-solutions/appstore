@@ -7,3 +7,22 @@
 .AppItem a {
     font-size: large;
 }
+
+span {
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    border-radius: 8px;
+}
+
+.PROD {    
+    background-color: darkred;
+}
+
+.UAT {
+    background-color: darkorange;
+}
+
+.LAB {
+    background-color: darkgreen;
+}

@@ -4,6 +4,10 @@
 }
 
 div .AppItems a {
+    /* text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    align-items:center;Vertical align */
     padding: 5px;
     width: 80%;
     height: 30px;

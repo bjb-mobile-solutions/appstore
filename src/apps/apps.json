@@ -5,7 +5,6 @@
         "apps": [
             {
                 "comment": "Current PROD version",
-                "hub": "🇨🇭CH",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.0.134",
@@ -14,7 +13,6 @@
             },
             {
                 "comment": "SSO version",
-                "hub": "🇨🇭CH",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.1.50",
@@ -23,7 +21,6 @@
             },
             {
                 "comment": "SSO version",
-                "hub": "🇨🇭CH",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.1.50",
@@ -32,7 +29,6 @@
             },
             {
                 "comment": "Current PROD version",
-                "hub": "🇨🇭CH",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.0.136",
@@ -41,7 +37,6 @@
             },
             {
                 "comment": "SSO version",
-                "hub": "🇨🇭CH",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.1.50",
@@ -50,7 +45,6 @@
             },
             {
                 "comment": "SSO version",
-                "hub": "🇨🇭CH",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.1.50",
