@@ -61,10 +61,10 @@ class App extends Component {
           </div>
           <footer>
             {this.state.authUser && <div> 
-              <p>Logged in as: {this.state.authUser.email}</p>
+              <p>Signed in as: {this.state.authUser.email}</p>
               <SignOutButton />
               </div>}
-            <p>version: 2.0.0</p>
+            <p>version: 2.0.1</p>
           </footer>
         </div>
       </Router >
