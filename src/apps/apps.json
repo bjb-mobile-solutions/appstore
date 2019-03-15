@@ -4,7 +4,7 @@
         "appIcon": "./apps/JBMobile/icon.png",
         "apps": [
             {
-                "comment": "Current PROD version",
+                "comment": "Current App Store version",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.0.134",
@@ -28,7 +28,7 @@
                 "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.50_LAB_iOS_JBMobileApp_2019-03-05.plist"
             },
             {
-                "comment": "Current PROD version",
+                "comment": "Current Play Store version",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.0.136",
