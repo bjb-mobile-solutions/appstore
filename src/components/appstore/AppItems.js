@@ -3,7 +3,6 @@ import './AppItems.css';
 
 import AppItem from './AppItem';
 
-
 function AppItems(props) {
 
     const appItems = props.appItems;

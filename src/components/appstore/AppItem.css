@@ -1,5 +1,7 @@
 .AppItem {
     padding: 5px;
+    border: 1px dotted black;
+    margin-bottom: 5px;
 }
 
 .AppItem a {

@@ -3,22 +3,31 @@
     font-size: medium;
 }
 
-/* unvisited link */
-a:link {
+div .AppItems a {
+    padding: 5px;
+    width: 80%;
+    height: 30px;
+    background:#141e55;
+    border: 1px solid #141e55;
+    color: white;
+}
+ 
+div .AppItems a:hover {
+    background:white;
     color: #141e55;
+    text-decoration: none;
   }
-  
-  /* visited link */
-  a:visited {
+
+div .AppItems a:active {
+  text-decoration: none;
+    background:white;
     color: #141e55;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #b0aa7e;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #b0aa7e;
-  }
+}
+
+div .AppItems a:link {
+  text-decoration: none;
+}
+
+div .AppItems a:visited {
+  text-decoration: none;
+}

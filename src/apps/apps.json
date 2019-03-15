@@ -4,13 +4,17 @@
         "appIcon": "./apps/JBMobile/icon.png",
         "apps": [
             {
+                "comment": "Current PROD version",
+                "hub": "CH",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.0.134",
-                "env": "UAT",
+                "env": "UAT",                
                 "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.0.134_UAT_iOS_JBMobileApp_2018-11-08.plist"
             },
             {
+                "comment": "SSO version",
+                "hub": "CH",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.1.50",
@@ -18,6 +22,8 @@
                 "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.50_UAT_iOS_JBMobileApp_2019-03-05.plist"
             },
             {
+                "comment": "SSO version",
+                "hub": "CH",
                 "name": "JB Mobile",
                 "os": "iOS",
                 "version": "3.1.50",
@@ -25,6 +31,8 @@
                 "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.50_LAB_iOS_JBMobileApp_2019-03-05.plist"
             },
             {
+                "comment": "Current PROD version",
+                "hub": "CH",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.0.136",
@@ -32,6 +40,8 @@
                 "url": "./apps/JBMobile/android/3.0.136_UAT_Android_JBMobileApp_2018-11-23.apk"
             },
             {
+                "comment": "SSO version",
+                "hub": "CH",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.1.50",
@@ -39,6 +49,8 @@
                 "url": "./apps/JBMobile/android/3.1.50_UAT_Android_JBMobileApp_2019-03-05.apk"
             },
             {
+                "comment": "SSO version",
+                "hub": "CH",
                 "name": "JB Mobile",
                 "os": "Android",
                 "version": "3.1.50",
