@@ -4,6 +4,20 @@
     margin-bottom: 5px;
 }
 
+.AppItem img {
+    width: 26px;
+    height: 26px;
+}
+
+.Platform {
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+
+.Platform span {
+    margin: auto;
+}
+
 .AppItem a {
     font-size: large;
 }
