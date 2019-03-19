@@ -3,7 +3,8 @@ import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 import * as ROUTES from '../../constants/routes';
 import './index.css';
-// import '../../js/jsqrscanner.nocache';
+
+import QrReader from 'react-qr-reader'
 
 
 import { withFirebase } from '../Firebase';
@@ -18,6 +19,7 @@ const INITIAL_STATE = {
     email: '',
     password: '',
     error: null,
+    cameraEnabled: false,
 };
 
 class SignInFormBase extends Component {
@@ -26,8 +28,25 @@ class SignInFormBase extends Component {
 
         this.state = { ...INITIAL_STATE };
         this.handleCameraClick = this.handleCameraClick.bind(this);
-
     }
+
+    handleScan = data => {
+        if (data) {
+            const json = JSON.parse(data);
+            if (json.email && json.password) {
+                this.setState({
+                    email: json.email,
+                    password: json.password,
+                    cameraEnabled: false
+                })
+            }
+        }
+    }
+
+    handleError = err => {
+        console.error(err)
+    }
+
 
     onSubmit = event => {
         const { email, password } = this.state;
@@ -50,9 +69,16 @@ class SignInFormBase extends Component {
     };
 
     handleCameraClick = event => {
-        alert(event);
+
+        this.setState({
+            cameraEnabled: !this.state.cameraEnabled
+        })
+
         event.preventDefault();
     }
+
+
+
     render() {
         const { email, password, error } = this.state;
 
@@ -79,9 +105,18 @@ class SignInFormBase extends Component {
 
                     {error && <p>{error.message}</p>}
                 </form>
-                <div class="Camera">
-                    <button onClick={this.handleCameraClick}>Scan QR</button>
-                    <div id="camera-feed"></div>
+                <div className="Camera">
+                    {this.state.cameraEnabled && <div>
+                        <QrReader
+                            delay={300}
+                            onError={this.handleError}
+                            onScan={this.handleScan}
+                            facingMode={"environment"}
+                            style={{ width: '70%', margin: "auto", marginTop: '20px' }}
+                        />
+                    </div>}
+                    <button onClick={this.handleCameraClick}>{this.state.cameraEnabled ? "Close camera" : "Scan QR"}</button>
+
                 </div>
             </div>
 

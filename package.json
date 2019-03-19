@@ -10,6 +10,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-dom": "^16.7.0",
     "react-minimal-pie-chart": "^3.3.0",
+    "react-qr-reader": "^2.2.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.8",
     "recompose": "^0.30.0"
