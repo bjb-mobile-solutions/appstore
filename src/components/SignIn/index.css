@@ -29,4 +29,6 @@ button:disabled {
     border: none;
 }
 
-  
+  .Camera button {
+      margin: 20px;
+  }

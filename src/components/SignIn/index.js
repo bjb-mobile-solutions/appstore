@@ -3,6 +3,8 @@ import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 import * as ROUTES from '../../constants/routes';
 import './index.css';
+// import '../../js/jsqrscanner.nocache';
+
 
 import { withFirebase } from '../Firebase';
 
@@ -23,6 +25,8 @@ class SignInFormBase extends Component {
         super(props);
 
         this.state = { ...INITIAL_STATE };
+        this.handleCameraClick = this.handleCameraClick.bind(this);
+
     }
 
     onSubmit = event => {
@@ -45,33 +49,42 @@ class SignInFormBase extends Component {
         this.setState({ [event.target.name]: event.target.value });
     };
 
+    handleCameraClick = event => {
+        alert(event);
+        event.preventDefault();
+    }
     render() {
         const { email, password, error } = this.state;
 
         const isInvalid = password === '' || email === '';
 
         return (
-            <form onSubmit={this.onSubmit}>
-                <input
-                    name="email"
-                    value={email}
-                    onChange={this.onChange}
-                    type="text"
-                    placeholder="Email Address"
-                />
-                <input
-                    name="password"
-                    value={password}
-                    onChange={this.onChange}
-                    type="password"
-                    placeholder="Password"
-                />
-                <button disabled={isInvalid} type="submit">
-                    Sign In
-        </button>
+            <div>
+                <form onSubmit={this.onSubmit}>
+                    <input
+                        name="email"
+                        value={email}
+                        onChange={this.onChange}
+                        type="text"
+                        placeholder="Email Address"
+                    />
+                    <input
+                        name="password"
+                        value={password}
+                        onChange={this.onChange}
+                        type="password"
+                        placeholder="Password"
+                    />
+                    <button disabled={isInvalid} type="submit">Sign In</button>
 
-                {error && <p>{error.message}</p>}
-            </form>
+                    {error && <p>{error.message}</p>}
+                </form>
+                <div class="Camera">
+                    <button onClick={this.handleCameraClick}>Scan QR</button>
+                    <div id="camera-feed"></div>
+                </div>
+            </div>
+
         );
     }
 }
