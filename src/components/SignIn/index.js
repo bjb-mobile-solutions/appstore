@@ -86,7 +86,7 @@ class SignInFormBase extends Component {
 
         return (
             <div>
-                <form onSubmit={this.onSubmit}>
+                {!this.state.cameraEnabled && <form onSubmit={this.onSubmit}>
                     <input
                         name="email"
                         value={email}
@@ -104,7 +104,7 @@ class SignInFormBase extends Component {
                     <button disabled={isInvalid} type="submit">Sign In</button>
 
                     {error && <p>{error.message}</p>}
-                </form>
+                </form>}
                 <div className="Camera">
                     {this.state.cameraEnabled && <div>
                         <QrReader
