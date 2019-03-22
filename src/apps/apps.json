@@ -12,6 +12,14 @@
                 "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.0.134_UAT_iOS_JBMobileApp_2018-11-08.plist"
             },
             {
+                "comment": "SSO version 22.03.2019",
+                "name": "JB Mobile",
+                "os": "iOS",
+                "version": "3.1.63",
+                "env": "UAT",
+                "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/3.1.63_UAT_iOS_JBMobileApp_2019-03-22.plist"
+            },
+            {
                 "comment": "SSO version",
                 "name": "JB Mobile",
                 "os": "iOS",
@@ -34,6 +42,14 @@
                 "version": "3.0.136",
                 "env": "UAT",
                 "url": "./apps/JBMobile/android/3.0.136_UAT_Android_JBMobileApp_2018-11-23.apk"
+            },
+            {
+                "comment": "SSO version 22.03.2019",
+                "name": "JB Mobile",
+                "os": "Android",
+                "version": "3.1.63",
+                "env": "UAT",
+                "url": "./apps/JBMobile/android/3.1.63_UAT_Android_JBMobileApp_2019-03-22.apk"
             },
             {
                 "comment": "SSO version",
