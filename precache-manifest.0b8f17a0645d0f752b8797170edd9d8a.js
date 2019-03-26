@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/4.d9a8cd59.png"
   },
   {
-    "revision": "cb35da120fd2178772bf",
+    "revision": "ce09c1df03ae346ca9e4",
     "url": "/appstore/static/css/main.789cdcb6.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/3.af307a54.png"
   },
   {
-    "revision": "cb35da120fd2178772bf",
-    "url": "/appstore/static/js/main.cc1fe07d.chunk.js"
+    "revision": "ce09c1df03ae346ca9e4",
+    "url": "/appstore/static/js/main.7028c157.chunk.js"
   },
   {
     "revision": "82630844e9ed47448df4e8a7569936cf",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/4.402e14ea.PNG"
   },
   {
-    "revision": "19f1814b7842256848cda4d7a132705c",
+    "revision": "d41436659f8bf26cbefd123dd16545e8",
     "url": "/appstore/index.html"
   }
 ];
