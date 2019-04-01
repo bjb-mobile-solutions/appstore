@@ -12,6 +12,7 @@ import * as ROUTES from './constants/routes';
 
 import AppStore from './components/appstore/AppStore';
 import Help from './components/help/Help';
+import Admin from './components/admin/Admin';
 
 
 import SignInPage from './components/SignIn';
@@ -79,6 +80,7 @@ const SwitchAuth = (props) => (
   <Switch>
     <Route exact path={ROUTES.LANDING} render={() => <AppStore authUser={props.authUser} />} />
     <Route exact path={ROUTES.HELP} component={Help} />
+    <Route exact path={ROUTES.ADMIN} render={() => <Admin authUser={props.authUser} />} />
     <Route render={() =>
       <div>
         <h1>Oops...</h1>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Admin.css';
 
-import AppItem from './AppItem';
+import AddApp from './AddApp';
 
 function Admin(props) {
 
@@ -9,13 +9,13 @@ function Admin(props) {
 
     // get app list
 
-    const listItems = appItems.map((appItem) =>
-        <li key={appItem.url}><AppItem appItem={appItem} /></li>
-    );
+    // const listItems = appItems.map((appItem) =>
+    //     <li key={appItem.url}><AppItem appItem={appItem} /></li>
+    // );
 
     return (
-        <ul className="AppItems">{listItems}</ul>
+        <AddApp authUser={props.authUser} />
     );
 }
 
-export default AppItems;
+export default Admin;

@@ -1,0 +1,11 @@
+select {
+    width: 80%;
+    height: 25px;
+    margin: 8px;
+  }
+
+  .AddAppItemPreview {
+      width: 80%;
+      margin: auto;
+      margin-top: 10px;
+    }

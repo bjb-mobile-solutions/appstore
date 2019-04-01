@@ -3,6 +3,8 @@ import './AppStore.css';
 
 import AppItems from './AppItems';
 
+import appJSON from '../../apps/apps.json';
+
 function AppStore(props) {
 
     const apps = appJSON.map((app) =>
