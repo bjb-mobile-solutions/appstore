@@ -65,7 +65,7 @@
                 "os": "Android",
                 "version": "3.2.4",
                 "env": "UAT",
-                "url": "./apps/JBMobile/android/3.2.4_UAT_Android_JBMobileApp_2019-04-04.apk"
+                "url": "./apps/JBMobile/android/3.2.4_UAT_Android_JBMobileApp_2019-04-01.apk"
             },
             {
                 "comment": "SSO version 22.03.2019",
