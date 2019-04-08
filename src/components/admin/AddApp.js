@@ -16,7 +16,7 @@ const AddApp = () => (
 const INITIAL_STATE = {
     name: '',
     version: '',
-    platform: '',
+    os: '',
     env: '',
     comment: '',
     error: null,
@@ -33,17 +33,45 @@ class AddAppFormBase extends Component {
         console.error(err)
     }
 
+    appItem = (name, version, os, env, comment) => {
+        return { 'name': name, 'version': version, 'os': os, 'env': env, 'comment': comment };
+    }
 
     onSubmit = event => {
-        const { name, env, comment, OS, version, error } = this.state;
+        const { name, version, os, env, comment } = this.state;
+        const appItem = this.appItem(name, version, os, env, comment);
 
-        // this.props.firebase
-        //     .doSignInWithEmailAndPassword(email, password)
-        //     .then(() => {
-        //         this.setState({ ...INITIAL_STATE });
-        //         this.props.history.push(ROUTES.LANDING);
+        this.props.firebase.addApp(appItem);
+
+        // this.props.firebase.app(name).get().then(querySnapshot => {
+        //     querySnapshot.forEach(doc => {
+        //         doc.id.update({
+        //             apps: this.props.firebase.firestore.FieldValue.arrayUnion(appItem)
+        //         })
+        //             // .then(function () {
+        //             //     // console.log("Document written with ID: ", docRef.id);
+        //             //     alert('Successfully saved: ' + name);
+        //             // })
+        //             .catch(function (error) {
+        //                 console.log(error);
+        //                 alert(error);
+        //                 // this.setState({ error });
+        //             })
         //     })
-        //     .catch(error => {
+        // })
+        //     .catch(function (error) {
+        //         console.log(error);
+        //         alert(error);
+        //         // this.setState({ error });
+        //     })
+        //     ;
+
+        // this.props.firebase.app(name).add(appItem)
+        //     .then(function (docRef) {
+        //         console.log("Document written with ID: ", docRef.id);
+        //         alert('Successfully saved: ' + name);
+        //     })
+        //     .catch(function (error) {
         //         this.setState({ error });
         //     });
 
@@ -54,18 +82,16 @@ class AddAppFormBase extends Component {
         this.setState({ [event.target.name]: event.target.value });
     };
 
-
-
     render() {
-        const { name, version, platform, env, comment, error } = this.state;
+        const { name, version, os, env, comment, error } = this.state;
 
-        const isInvalid = name === '' || version === '' || platform === '' || env === '' || comment === '';
+        const isInvalid = name === '' || version === '' || os === '' || env === '' || comment === '';
 
         return (
             <div>
                 <h2>Add a new app</h2>
                 <div className="AddAppItemPreview">
-                    <AppItem appItem={{ 'name': name, 'version': version, 'os': platform, 'env': env, 'comment': comment }} />
+                    <AppItem appItem={this.appItem(name, version, os, env, comment)} />
                 </div>
                 <form onSubmit={this.onSubmit}>
                     <select onChange={this.onChange} name="name">
@@ -80,10 +106,10 @@ class AddAppFormBase extends Component {
                         type="text"
                         placeholder="Version (e.g. 3.1.143 )"
                     />
-                    <select onChange={this.onChange} name="platform">
-                        <option>Please select the platform</option>
-                        <option value="iOS" onChange={this.onChange} name="platform">iOS</option>
-                        <option value="Android" onChange={this.onChange} name="platform">Android</option>
+                    <select onChange={this.onChange} name="os">
+                        <option>Please select the OS</option>
+                        <option value="iOS" onChange={this.onChange} name="os">iOS</option>
+                        <option value="Android" onChange={this.onChange} name="os">Android</option>
                     </select>
                     <select onChange={this.onChange} name="env">
                         <option>Please select the environment</option>
