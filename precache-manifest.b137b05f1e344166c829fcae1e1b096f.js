@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/4.d9a8cd59.png"
   },
   {
-    "revision": "bf9b01c8e9d6bf552655",
-    "url": "/appstore/static/css/main.789cdcb6.chunk.css"
+    "revision": "3fa5c412fa829713b4c4",
+    "url": "/appstore/static/css/main.d93b117c.chunk.css"
   },
   {
     "revision": "43f334da0dcf9fe4c9f8",
     "url": "/appstore/static/js/runtime~main.6dda9164.js"
   },
   {
-    "revision": "5c6577c25a0477986fd6",
-    "url": "/appstore/static/js/2.0ef48c72.chunk.js"
+    "revision": "e291aa2c8fbfe33165e9",
+    "url": "/appstore/static/js/2.e4156c2f.chunk.js"
   },
   {
     "revision": "7ad68856991c4b270aba82d1c969fe78",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/3.af307a54.png"
   },
   {
-    "revision": "bf9b01c8e9d6bf552655",
-    "url": "/appstore/static/js/main.48de369f.chunk.js"
+    "revision": "3fa5c412fa829713b4c4",
+    "url": "/appstore/static/js/main.f1404341.chunk.js"
   },
   {
     "revision": "82630844e9ed47448df4e8a7569936cf",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/appstore/static/media/4.402e14ea.PNG"
   },
   {
-    "revision": "e8c8c3a82fcb41c2f13c16e47cde18ea",
+    "revision": "6e1dd67edc70160b2220e2c4acb942af",
     "url": "/appstore/index.html"
   }
 ];
