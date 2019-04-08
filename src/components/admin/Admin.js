@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Admin.css';
+import * as ROUTES from '../../constants/routes';
+
 
 import AddApp from './AddApp';
 
@@ -14,7 +17,10 @@ function Admin(props) {
     // );
 
     return (
-        <AddApp authUser={props.authUser} />
+        <div>
+            <AddApp authUser={props.authUser} />
+            <Link to={ROUTES.LANDING}>Apps</Link>
+        </div>
     );
 }
 

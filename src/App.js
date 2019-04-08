@@ -83,7 +83,9 @@ const SwitchAuth = (props) => (
   <Switch>
     <Route exact path={ROUTES.LANDING} render={() => <AppStore firebase={props.firebase} authUser={props.authUser} />} />
     <Route exact path={ROUTES.HELP} component={Help} />
-    <Route exact path={ROUTES.ADMIN} render={() => <Admin authUser={props.authUser} />} />
+    {props.authUser.email === ROUTES.ADMIN_EMAIL &&
+      <Route exact path={ROUTES.ADMIN} render={() => <Admin authUser={props.authUser} />} />
+    }
     <Route render={() =>
       <div>
         <h1>Oops...</h1>

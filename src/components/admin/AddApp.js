@@ -18,6 +18,7 @@ const INITIAL_STATE = {
     version: '',
     os: '',
     env: '',
+    url: 'https://example.com',
     comment: '',
     error: null,
 };
@@ -33,13 +34,13 @@ class AddAppFormBase extends Component {
         console.error(err)
     }
 
-    appItem = (name, version, os, env, comment) => {
-        return { 'name': name, 'version': version, 'os': os, 'env': env, 'comment': comment };
+    appItem = (name, version, os, env, url, comment) => {
+        return { 'name': name, 'version': version, 'os': os, 'env': env, 'url': url, 'comment': comment };
     }
 
     onSubmit = event => {
-        const { name, version, os, env, comment } = this.state;
-        const appItem = this.appItem(name, version, os, env, comment);
+        const { name, version, os, env, url, comment } = this.state;
+        const appItem = this.appItem(name, version, os, env, url, comment);
 
         this.props.firebase.addApp(appItem).then(ref => {
             alert('Successfully saved: ' + name);

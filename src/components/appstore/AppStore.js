@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './AppStore.css';
 
+import { Link } from "react-router-dom";
+import * as ROUTES from '../../constants/routes';
+
 import AppItems from './AppItems';
 
 // import appJSON from '../../apps/apps.json';
@@ -30,7 +33,7 @@ class AppStore extends Component {
             snapshot.forEach(function (doc) {
                 apps.push(doc.data());
             });
-            this.setState({apps});
+            this.setState({ apps });
 
         })
 
@@ -40,8 +43,6 @@ class AppStore extends Component {
         return <div>
             {authUser && <div>
                 <ul className="AppList">{this.state.apps && this.state.apps.map((app) => {
-
-                    console.log(app.apps);
 
                     return <li key={app.appId} className="AppStore"><img src={app.appIcon} alt={app.name} /><p className="AppName">{app.appName}</p>
                         {app.apps && <AppItems appItems={app.apps} />}
@@ -55,6 +56,9 @@ class AppStore extends Component {
     render() {
         return <div>
             {this.props.authUser ? this.appList(this.props.authUser) : <p>Please login</p>}
+            {this.props.authUser && <div>{this.props.authUser.email === ROUTES.ADMIN_EMAIL && <Link to={ROUTES.ADMIN}>Admin</Link>}</div>
+            }
+
         </div>
     };
 
