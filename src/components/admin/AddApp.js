@@ -41,39 +41,11 @@ class AddAppFormBase extends Component {
         const { name, version, os, env, comment } = this.state;
         const appItem = this.appItem(name, version, os, env, comment);
 
-        this.props.firebase.addApp(appItem);
-
-        // this.props.firebase.app(name).get().then(querySnapshot => {
-        //     querySnapshot.forEach(doc => {
-        //         doc.id.update({
-        //             apps: this.props.firebase.firestore.FieldValue.arrayUnion(appItem)
-        //         })
-        //             // .then(function () {
-        //             //     // console.log("Document written with ID: ", docRef.id);
-        //             //     alert('Successfully saved: ' + name);
-        //             // })
-        //             .catch(function (error) {
-        //                 console.log(error);
-        //                 alert(error);
-        //                 // this.setState({ error });
-        //             })
-        //     })
-        // })
-        //     .catch(function (error) {
-        //         console.log(error);
-        //         alert(error);
-        //         // this.setState({ error });
-        //     })
-        //     ;
-
-        // this.props.firebase.app(name).add(appItem)
-        //     .then(function (docRef) {
-        //         console.log("Document written with ID: ", docRef.id);
-        //         alert('Successfully saved: ' + name);
-        //     })
-        //     .catch(function (error) {
-        //         this.setState({ error });
-        //     });
+        this.props.firebase.addApp(appItem).then(ref => {
+            alert('Successfully saved: ' + name);
+        }).catch(error => {
+            alert(error);
+        });      
 
         event.preventDefault();
     };

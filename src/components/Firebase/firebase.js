@@ -1,7 +1,8 @@
 import app from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
-const FieldValue = require('firebase-admin').firestore.FieldValue;
+
+// const FieldValue = require('firebase-admin').firestore.FieldValue;
 
 const config = {
     apiKey: "AIzaSyBgY1RyA6LZgQa2j7jBSLaRWF7YdXdWTlw",
@@ -36,31 +37,16 @@ class Firebase {
 
     app = (appName) => this.db.collection("apps").where("appName", "==", appName);
 
-    addApp = (appItem) => {
-        this.app(appItem.name).get().then(querySnapshot => {
-            querySnapshot.forEach(doc => {
-                console.log(doc.id);
-                doc.id.update({
-                    apps: FieldValue.arrayUnion(appItem)
-                })
-                    // .then(function () {
-                    //     // console.log("Document written with ID: ", docRef.id);
-                    //     alert('Successfully saved: ' + name);
-                    // })
-                    .catch(function (error) {
-                        console.log(error);
-                        alert(error);
-                        // this.setState({ error });
-                    });
-            })
-        })
-            .catch(function (error) {
-                console.log(error);
-                alert(error);
-                // this.setState({ error });
-            })
-            ;
+    appId = (id) => this.db.collection("apps").doc(id);
 
+    addApp = (appItem) => {
+        return this.app(appItem.name).get().then(querySnapshot => {
+            querySnapshot.forEach(doc => {
+                return this.appId(doc.id).update({
+                    apps: app.firestore.FieldValue.arrayUnion(appItem)
+                })
+            })
+        });
     };
 
 }
