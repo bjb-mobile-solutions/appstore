@@ -15,12 +15,12 @@ function AppItem(props) {
             {appItem.os === "Android" && <p>Android <img src={imageAndroid} alt="Android" /></p>}
 
             <p>
-             {appItem.env && <span class={appItem.env}>{appItem.env}</span>}</p>
+                {appItem.env && <span className={appItem.env}>{appItem.env}</span>}</p>
             {appItem.comment && <p>≪{appItem.comment}≫</p>}
-            <a href={appItem.url} rel="noopener noreferrer">
+            {appItem.url && <a href={appItem.url} rel="noopener noreferrer">
                 {appItem.os === "iOS" && "Install"}
                 {appItem.os === "Android" && "Download"}
-            </a>
+            </a>}
             <p></p>
         </div>
     );

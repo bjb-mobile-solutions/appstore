@@ -12,10 +12,12 @@ import * as ROUTES from './constants/routes';
 
 import AppStore from './components/appstore/AppStore';
 import Help from './components/help/Help';
+import Admin from './components/admin/Admin';
 
 
 import SignInPage from './components/SignIn';
 import SignOutButton from './components/SignOut';
+
 
 class App extends Component {
 
@@ -28,6 +30,8 @@ class App extends Component {
   }
 
   componentDidMount() {
+
+
     this.listener = this.props.firebase.auth.onAuthStateChanged(
       authUser => {
         authUser
@@ -57,14 +61,14 @@ class App extends Component {
             </div>
           </div>
           <div className="App-content">
-            <div>{this.state.authUser ? <SwitchAuth authUser={this.state.authUser} /> : <SwitchNoAuth />}</div>
+            <div>{this.state.authUser ? <SwitchAuth firebase={this.props.firebase} authUser={this.state.authUser} /> : <SwitchNoAuth />}</div>
           </div>
           <footer>
-            {this.state.authUser && <div> 
+            {this.state.authUser && <div>
               <p>Signed in as: {this.state.authUser.email}</p>
               <SignOutButton />
-              </div>}
-            <p>version: 3.0.8</p>
+            </div>}
+            <p>version: 4.0.0</p>
           </footer>
         </div>
       </Router >
@@ -77,8 +81,11 @@ class App extends Component {
 
 const SwitchAuth = (props) => (
   <Switch>
-    <Route exact path={ROUTES.LANDING} render={() => <AppStore authUser={props.authUser} />} />
+    <Route exact path={ROUTES.LANDING} render={() => <AppStore firebase={props.firebase} authUser={props.authUser} />} />
     <Route exact path={ROUTES.HELP} component={Help} />
+    {props.authUser.email === ROUTES.ADMIN_EMAIL &&
+      <Route exact path={ROUTES.ADMIN} render={() => <Admin authUser={props.authUser} />} />
+    }
     <Route render={() =>
       <div>
         <h1>Oops...</h1>
