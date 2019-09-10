@@ -34,13 +34,19 @@ class AddAppFormBase extends Component {
         console.error(err)
     }
 
-    appItem = (name, version, os, env, url, comment) => {
+    appItem = (name, version, os, env, comment) => {
+        var url = "";
+        if (os === "iOS") {
+            url = "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/" + version + "_" + env + "_iOS_JBMobileApp.plist";
+        } else if (os === "Android") {
+            url = "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/" + version + "_" + env + "_Android_JBMobileApp.apk";
+        }
         return { 'name': name, 'version': version, 'os': os, 'env': env, 'url': url, 'comment': comment };
     }
 
     onSubmit = event => {
         const { name, version, os, env, url, comment } = this.state;
-        const appItem = this.appItem(name, version, os, env, url, comment);
+        const appItem = this.appItem(name, version, os, env, comment);
 
         this.props.firebase.addApp(appItem).then(ref => {
             alert('Successfully saved: ' + name);
