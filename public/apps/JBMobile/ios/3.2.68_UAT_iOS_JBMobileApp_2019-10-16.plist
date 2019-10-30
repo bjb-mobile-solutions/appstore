@@ -16,6 +16,8 @@
 			</array>
 			<key>metadata</key>
 			<dict>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
 				<key>bundle-identifier</key>
 				<string>com.juliusbaer.JBMobile</string>
 				<key>bundle-version</key>
