@@ -4,23 +4,7 @@
     "appName": "JB Mobile",
     "apps": [
       {
-        "comment": "Release candidate",
-        "env": "UAT",
-        "name": "JB Mobile",
-        "os": "iOS",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_rc.plist",
-        "version": "3.10.21"
-      },
-      {
-        "comment": "Release candidate",
-        "env": "UAT",
-        "name": "JB Mobile",
-        "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.10.21-1396-release.apk",
-        "version": "3.10.21"
-      },
-      {
-        "comment": "Hotfix",
+        "comment": "Current Market",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "iOS",
@@ -28,7 +12,7 @@
         "version": "3.9.37"
       },
       {
-        "comment": "Hotfix",
+        "comment": "Current Market",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
@@ -36,7 +20,7 @@
         "version": "3.9.37"
       },
       {
-        "comment": "Current Market",
+        "comment": "Former Release",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "iOS",
@@ -44,7 +28,7 @@
         "version": "3.9.27"
       },
       {
-        "comment": "Current Market",
+        "comment": "Former Release",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
@@ -52,23 +36,7 @@
         "version": "3.9.27"
       },
       {
-        "comment": "Release candidate",
-        "env": "LAB",
-        "name": "JB Mobile",
-        "os": "iOS",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_rc.plist",
-        "version": "3.10.21"
-      },
-      {
-        "comment": "Release candidate",
-        "env": "LAB",
-        "name": "JB Mobile",
-        "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.10.21-1396-release.apk",
-        "version": "3.10.21"
-      },
-      {
-        "comment": "Hotfix",
+        "comment": "Current Market",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "iOS",
@@ -76,7 +44,7 @@
         "version": "3.9.37"
       },
       {
-        "comment": "Hotfix",
+        "comment": "Current Market",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
@@ -84,7 +52,7 @@
         "version": "3.9.37"
       },
       {
-        "comment": "Current Market",
+        "comment": "Former Release",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "iOS",
@@ -92,7 +60,7 @@
         "version": "3.9.27"
       },
       {
-        "comment": "Current Market",
+        "comment": "Former Release",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
