@@ -19,7 +19,7 @@
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>bundle-identifier</key>
-				<string>com.juliusbaer.JBMobile</string>
+				<string>com.juliusbaer.jbmobile</string>
 				<key>bundle-version</key>
 				<string>3.11.33</string>
 				<key>kind</key>
