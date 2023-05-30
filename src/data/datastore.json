@@ -114,7 +114,7 @@
         "os": "Android",
         "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-dev-3.25.9-1592-release.apk",
         "version": "3.25.9"
-      }
+      },
       {
         "comment": "Current Market",
         "env": "TST50",
@@ -130,6 +130,6 @@
         "os": "Android",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.9-1592-release.apk",
         "version": "3.25.9"
-      },
+      }
     ]
   }
