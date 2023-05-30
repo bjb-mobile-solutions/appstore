@@ -128,7 +128,7 @@
         "env": "TST50",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.9-1592-release.apk",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.9-1592-release.apk",
         "version": "3.25.9"
       }
     ]
