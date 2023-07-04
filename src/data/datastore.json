@@ -4,20 +4,12 @@
     "appName": "JB Mobile",
     "apps": [
       {
-        "comment": "Release Candidate",
-        "env": "UAT",
-        "name": "JB Mobile",
-        "os": "iOS",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
-        "version": "3.25.9"
-      },
-      {
         "comment": "Current Market",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_appstore.plist",
-        "version": "3.11.67"
+        "version": "3.25.9"
       },
       {
         "comment": "Legacy Version",
@@ -25,10 +17,10 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_legacy.plist",
-        "version": "3.11.33"
+        "version": "3.11.67"
        },
        {
-        "comment": "Release Candidate",
+        "comment": "Current Market",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
@@ -36,7 +28,7 @@
         "version": "3.25.9"
       },
       {
-        "comment": "Current Market",
+        "comment": "Legacy Version",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
@@ -44,28 +36,12 @@
         "version": "3.11.66"
       },
       {
-        "comment": "Legacy Version",
-        "env": "UAT",
-        "name": "JB Mobile",
-        "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.11.58-1540-release.apk",
-        "version": "3.11.58"
-      },
-      {
-        "comment": "Release Candidate",
-        "env": "LAB",
-        "name": "JB Mobile",
-        "os": "iOS",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_rc.plist",
-        "version": "3.25.9"
-      },
-      {
         "comment": "Current Market",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_appstore.plist",
-        "version": "3.11.67"
+        "version": "3.25.9"
       },
       {
         "comment": "Legacy Version",
@@ -73,10 +49,10 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_legacy.plist",
-        "version": "3.11.33"
-      },
+        "version": "3.11.67"
+       },
       {
-        "comment": "Release Candidate",
+        "comment": "Current Market",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
@@ -84,20 +60,12 @@
         "version": "3.25.9"
       },
       {
-        "comment": "Current Market",
+        "comment": "Legacy Version",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
         "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.11.66-1560-release.apk",
         "version": "3.11.66"
-      },
-      {
-        "comment": "Legacy Version",
-        "env": "LAB",
-        "name": "JB Mobile",
-        "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.11.58-1540-release.apk",
-        "version": "3.11.58"
       },
       {
         "comment": "Current Market",
