@@ -4,6 +4,14 @@
     "appName": "JB Mobile",
     "apps": [
       {
+        "comment": "Release Candidate",
+        "env": "UAT",
+        "name": "JB Mobile",
+        "os": "iOS",
+        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
+        "version": "3.25.33"
+      },
+      {
         "comment": "Current Market",
         "env": "UAT",
         "name": "JB Mobile",
@@ -18,6 +26,14 @@
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_legacy.plist",
         "version": "3.11.67"
+       },
+       {
+        "comment": "Release Candidate",
+        "env": "UAT",
+        "name": "JB Mobile",
+        "os": "Android",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.25.33-1623-release.apk",
+        "version": "3.25.33"
        },
        {
         "comment": "Current Market",
@@ -36,6 +52,14 @@
         "version": "3.11.66"
       },
       {
+        "comment": "Release Candidate",
+        "env": "LAB",
+        "name": "JB Mobile",
+        "os": "iOS",
+        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_RC.plist",
+        "version": "3.25.33"
+      },
+      {
         "comment": "Current Market",
         "env": "LAB",
         "name": "JB Mobile",
@@ -50,7 +74,15 @@
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_legacy.plist",
         "version": "3.11.67"
-       },
+      },
+      {
+        "comment": "Release Candidate",
+        "env": "LAB",
+        "name": "JB Mobile",
+        "os": "Android",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.25.33-1623-release.apk",
+        "version": "3.25.33"
+      },
       {
         "comment": "Current Market",
         "env": "LAB",
