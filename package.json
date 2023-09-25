@@ -4,14 +4,14 @@
   "homepage": "https://bjb-mobile-solutions.github.io/appstore",
   "private": true,
   "dependencies": {
-    "firebase": "^5.8.6",
-    "react": "^16.7.0",
+    "firebase": "^10.4.0",
+    "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-dom": "^16.7.0",
     "react-minimal-pie-chart": "^3.3.0",
     "react-qr-reader": "^2.2.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^5.0.0",
     "recompose": "^0.30.0"
   },
   "scripts": {
