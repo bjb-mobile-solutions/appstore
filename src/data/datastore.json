@@ -121,15 +121,15 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/TST50_RC.plist",
-        "version": "3.25.9"
+        "version": "3.25.41"
       },
       {
         "comment": "Current Market",
         "env": "TST50",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.9-1592-release.apk",
-        "version": "3.25.9"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.41-1621-release.apk",
+        "version": "3.25.41"
       }
     ]
   }
