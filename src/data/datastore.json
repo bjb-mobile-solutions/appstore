@@ -9,7 +9,7 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
-        "version": "3.25.41"
+        "version": "3.25.41-3"
       },
       {
         "comment": "Current Market",
@@ -32,8 +32,8 @@
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.25.41-1631-release.apk",
-        "version": "3.25.41"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.25.41-3-release.apk",
+        "version": "3.25.41-3"
        },
        {
         "comment": "Current Market",
@@ -128,7 +128,7 @@
         "env": "TST50",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.41-1621-release.apk",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.25.41-1631-release.apk",
         "version": "3.25.41"
       }
     ]
