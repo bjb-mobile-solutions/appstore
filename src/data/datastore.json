@@ -9,7 +9,7 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
-        "version": "3.25.41"
+        "version": "3.26.33"
       },
       {
         "comment": "Legacy Version",
@@ -24,8 +24,8 @@
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.25.41-7-release.apk",
-        "version": "3.25.41"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.33-1699-release.apk",
+        "version": "3.26.33"
        },
        {
         "comment": "Legacy Version",
