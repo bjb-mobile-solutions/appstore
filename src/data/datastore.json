@@ -9,7 +9,7 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
-        "version": "3.26.42"
+        "version": "3.26.67"
       },
       {
         "comment": "Current Market",
