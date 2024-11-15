@@ -10,7 +10,7 @@
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
         "version": "3.26.67"
-      },
+      },-1745
       {
         "comment": "Current Market",
         "env": "UAT",
@@ -114,6 +114,14 @@
         "os": "Android",
         "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.26.42-release.apk",
         "version": "3.26.42"
+      },
+      {
+        "comment": "JB1 Integration",
+        "env": "TST",
+        "name": "JB1",
+        "os": "iOS",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JB1/jb1_tst.plist",
+        "version": "0.0.1"
       }
     ]
   }
