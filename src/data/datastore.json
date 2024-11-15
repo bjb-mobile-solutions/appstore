@@ -117,10 +117,10 @@
       },
       {
         "comment": "JB1 Integration",
-        "env": "TST",
+        "env": "LAB",
         "name": "JB1",
         "os": "iOS",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JB1/jb1_tst.plist",
+        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JB1/jb1_tst.plist",
         "version": "0.0.1"
       }
     ]
