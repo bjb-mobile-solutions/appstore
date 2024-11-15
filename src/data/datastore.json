@@ -114,14 +114,6 @@
         "os": "Android",
         "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.26.42-release.apk",
         "version": "3.26.42"
-      },
-      {
-        "comment": "JB1 Integration",
-        "env": "LAB",
-        "name": "JB1",
-        "os": "iOS",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JB1/jb1_tst.plist",
-        "version": "1.0"
       }
     ]
   }
