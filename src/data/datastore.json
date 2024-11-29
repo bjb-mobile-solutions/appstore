@@ -57,7 +57,7 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_RC.plist",
-        "version": "3.25.41"
+        "version": "3.26.67"
       },
       {
         "comment": "Legacy Version",
@@ -72,8 +72,8 @@
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.25.41-1631-release.apk",
-        "version": "3.25.41"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.67-1742-release.apk",
+        "version": "3.26.67"
       },
       {
         "comment": "Legacy Version",
