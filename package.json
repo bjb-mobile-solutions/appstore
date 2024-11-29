@@ -11,8 +11,8 @@
     "react-minimal-pie-chart": "^3.3.0",
     "react-qr-reader": "^2.2.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^5.0.0",
-    "recompose": "^0.30.0"
+    "react-scripts": "^3.0.1",
+    "recompose": "^0.17.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -33,6 +33,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^6.2.0"
   }
 }
