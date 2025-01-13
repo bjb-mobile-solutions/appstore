@@ -4,7 +4,7 @@
     "appName": "JB Mobile",
     "apps": [
       {
-        "comment": "Release Candidate",
+        "comment": "Current Market",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "iOS",
@@ -12,12 +12,12 @@
         "version": "3.26.67"
       },-1745
       {
-        "comment": "Current Market",
+        "comment": "Hotfix Delivery",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_appstore.plist",
-        "version": "3.25.41"
+        "version": "3.26.67-6"
       },
       {
         "comment": "Legacy Version",
