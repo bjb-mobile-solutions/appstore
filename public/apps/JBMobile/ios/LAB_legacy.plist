@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/bjb-bjb-lab-3.11.67-1562-development.ipa</string>
+					<string>https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/bjb-bjb-lab-3.25.41-1631-development.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -21,7 +21,7 @@
 				<key>bundle-identifier</key>
 				<string>com.juliusbaer.jbmobile</string>
 				<key>bundle-version</key>
-				<string>3.11.67</string>
+				<string>3.25.41</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
