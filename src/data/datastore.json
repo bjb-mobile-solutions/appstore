@@ -10,7 +10,7 @@
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
         "version": "3.26.98"
-      },-1745
+      },
       {
         "comment": "App Store Version",
         "env": "UAT",
