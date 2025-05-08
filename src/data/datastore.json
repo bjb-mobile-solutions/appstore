@@ -4,6 +4,14 @@
     "appName": "JB Mobile",
     "apps": [
       {
+        "comment":"Release Candidate",
+        "env": "UAT",
+        "name": "JBOne App",
+        "os": "iOS",
+        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore//apps/JB1/ios/jb1_uat.plist",
+        "version": "1.0"
+      },
+      {
         "comment": "Release Candidate",
         "env": "UAT",
         "name": "JB Mobile",
@@ -26,6 +34,14 @@
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_legacy.plist",
         "version": "3.26.67"
+      },
+      {
+        "comment":"Release Candidate",
+        "env": "UAT",
+        "name": "JBOne App",
+        "os": "Android",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JB1/android/25.04.01329-jbone-uat-debug.apk",
+        "version": "1.0"
       },
        {
         "comment": "Release Candidate",
