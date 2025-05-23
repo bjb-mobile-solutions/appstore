@@ -68,8 +68,8 @@ class App extends Component {
               <p>Signed in as: {this.state.authUser.email}</p>
               <SignOutButton />
             </div>}
-            <p>version: 5.13</p>
-              <p>Last change: Updating to release candidate 3.26.98</p>
+            <p>version: 5.14</p>
+              <p>Last change: Updating iOS</p>
           </footer>
         </div>
       </Router >

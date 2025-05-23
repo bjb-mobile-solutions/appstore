@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-          <string>https://bjb-mobile-solutions.github.io/appstore/apps/JB1/ios/25_05_15_uat_debug.ipa</string>
+          <string>https://bjb-mobile-solutions.github.io/appstore/apps/JB1/ios/25.05.02018-uat-debug.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -21,7 +21,7 @@
 				<key>bundle-identifier</key>
 				<string>com.juliusbaer.ent.jbone.uat</string>
 				<key>bundle-version</key>
-				<string>25.05</string>
+				<string>25.05.02018</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
