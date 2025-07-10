@@ -9,7 +9,7 @@
         "name": "JBOne App",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore//apps/JB1/ios/jb1_uat.plist",
-        "version": "25.06.12081"
+        "version": "25.07"
       },
       {
         "comment": "Release Candidate",

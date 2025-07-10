@@ -68,8 +68,8 @@ class App extends Component {
               <p>Signed in as: {this.state.authUser.email}</p>
               <SignOutButton />
             </div>}
-            <p>version: 25.08</p>
-              <p>Last change: prerelease build</p>
+            <p>version: 25.08.04</p>
+              <p>Last change: MAP debug versions for payment issue</p>
           </footer>
         </div>
       </Router >
