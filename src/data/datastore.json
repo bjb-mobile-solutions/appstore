@@ -40,8 +40,8 @@
         "env": "UAT",
         "name": "JBOne App",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JB1/android/25.06.01534-jbone-uat-debug.apk",
-        "version": "25.06.01534"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JB1/android/25.07.01580-jbone-uat-debug.apk",
+        "version": "25.07"
       },
        {
         "comment": "Release Candidate",
