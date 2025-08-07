@@ -69,7 +69,7 @@ class App extends Component {
               <SignOutButton />
             </div>}
             <p>version: 25.08.06</p>
-              <p>update release candidates for JB1</p>
+              <p>Use release version of JBOne</p>
           </footer>
         </div>
       </Router >
