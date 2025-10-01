@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/appstore/static/css/main.fc6b0b03.css",
-    "main.js": "/appstore/static/js/main.f2a5502b.js",
+    "main.js": "/appstore/static/js/main.1d4ba9c6.js",
     "static/media/4.PNG": "/appstore/static/media/4.37f0e98ec191c31fb856.PNG",
     "static/media/3.PNG": "/appstore/static/media/3.e534e0e40be811f9b57f.PNG",
     "static/media/2.PNG": "/appstore/static/media/2.f8c5dcea74c37b47a677.PNG",
@@ -20,10 +20,10 @@
     "static/media/close.svg": "/appstore/static/media/close.fd2d19ecc322c8a7756bb0a39acd091d.svg",
     "index.html": "/appstore/index.html",
     "main.fc6b0b03.css.map": "/appstore/static/css/main.fc6b0b03.css.map",
-    "main.f2a5502b.js.map": "/appstore/static/js/main.f2a5502b.js.map"
+    "main.1d4ba9c6.js.map": "/appstore/static/js/main.1d4ba9c6.js.map"
   },
   "entrypoints": [
     "static/css/main.fc6b0b03.css",
-    "static/js/main.f2a5502b.js"
+    "static/js/main.1d4ba9c6.js"
   ]
 }
