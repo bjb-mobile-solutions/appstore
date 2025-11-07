@@ -46,9 +46,6 @@ class App extends Component {
   }
   render() {
     return (
-      // <FirebaseContext.Consumer>
-      //   {firebase => {
-      // return
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <div className="App-header">
@@ -69,13 +66,10 @@ class App extends Component {
               <SignOutButton />
             </div>}
             <p>version:</p>
-            <p>Updated version of JBMobile to lastest appstore for regression</p>
+            <p>Updated JBOne versions to 25.11</p>
           </footer>
         </div>
       </Router >
-      // ;
-      // }}
-      // </FirebaseContext.Consumer>
     );
   }
 }
