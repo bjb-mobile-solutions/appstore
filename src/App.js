@@ -65,8 +65,8 @@ class App extends Component {
               <p>Signed in as: {this.state.authUser.email}</p>
               <SignOutButton />
             </div>}
-            <p>version:</p>
-            <p>Updated JBOne versions to 25.11</p>
+            <p>version:5.0</p>
+            <p>Updated JB Mobile App version 3.26.126</p>
           </footer>
         </div>
       </Router >
