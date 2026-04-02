@@ -24,7 +24,7 @@
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.126-1828-release.apk",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.126-1835-release.apk",
         "version": "3.26.126"
        },
        {
@@ -64,7 +64,7 @@
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.126-1828-release.apk",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.126-1836-release.apk",
         "version": "3.26.126"
       },
       {
@@ -104,7 +104,7 @@
         "env": "TST50",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.26.126-1828-release.apk",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.26.126-1835-release.apk",
         "version": "3.26.126"
       }
     ]
