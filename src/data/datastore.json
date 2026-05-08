@@ -24,16 +24,16 @@
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.127-1840-release.apk",
-        "version": "3.26.127"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.128-1842-release.apk",
+        "version": "3.26.128"
        },
        {
         "comment": "Play Store Version",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.99-1801-release.apk",
-        "version": "3.26.99"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.126-1835-release.apk",
+        "version": "3.26.126"
        },
        {
         "comment": "Legacy Version",

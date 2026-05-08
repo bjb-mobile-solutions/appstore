@@ -66,7 +66,7 @@ class App extends Component {
               <SignOutButton />
             </div>}
             <p>version:5.1</p>
-            <p>Updated JB Mobile App to latest version 3.26.127 (RC) for UAT</p>
+            <p>Updated JB Mobile apps to latest version 3.26.128 (RC) and store versions to 3.26.126 for UAT</p>
           </footer>
         </div>
       </Router >
