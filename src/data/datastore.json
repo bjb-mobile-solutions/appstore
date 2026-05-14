@@ -9,7 +9,7 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_RC.plist",
-        "version": "3.26.128"
+        "version": "3.26.135"
       },
       {
         "comment": "App Store Version",
@@ -17,39 +17,31 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/UAT_appstore.plist",
-        "version": "3.26.99"
+        "version": "3.26.126"
       },
        {
         "comment": "Release Candidate",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.128-1842-release.apk",
-        "version": "3.26.128"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.135-1850-release.apk",
+        "version": "3.26.135"
        },
        {
         "comment": "Play Store Version",
         "env": "UAT",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.126-1835-release.apk",
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.126-1855-release.apk",
         "version": "3.26.126"
        },
-       {
-        "comment": "Legacy Version",
-        "env": "UAT",
-        "name": "JB Mobile",
-        "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-uat-3.26.67-1745-release.apk",
-        "version": "3.26.67"
-      },
       {
         "comment": "Release Candidate",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_RC.plist",
-        "version": "3.26.126"
+        "version": "3.26.135"
       },
       {
         "comment": "App Store Version",
@@ -57,39 +49,23 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/LAB_appstore.plist",
-        "version": "3.26.98"
+        "version": "3.26.126"
       },
       {
         "comment": "Release Candidate",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.126-1836-release.apk",
-        "version": "3.26.126"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.135-1850-release.apk",
+        "version": "3.26.135"
       },
       {
         "comment": "Play Store Version",
         "env": "LAB",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.98-1786-release.apk",
-        "version": "3.26.98"
-      },
-      {
-        "comment": "Release Candidate",
-        "env": "DEV",
-        "name": "JB Mobile",
-        "os": "iOS",
-        "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/DEV_RC.plist",
-        "version": "3.26.98"
-      },
-      {
-        "comment": "Release Candidate",
-        "env": "DEV",
-        "name": "JB Mobile",
-        "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-dev-3.26.98-1786-release.apk",
-        "version": "3.26.89"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-lab-3.26.126-1855-release.apk",
+        "version": "3.26.126"
       },
       {
         "comment": "Release Candidate",
@@ -97,15 +73,15 @@
         "name": "JB Mobile",
         "os": "iOS",
         "url": "itms-services://?action=download-manifest&url=https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/ios/TST50_RC.plist",
-        "version": "3.26.126"
+        "version": "3.26.135"
       },
       {
         "comment": "Release Candidate",
         "env": "TST50",
         "name": "JB Mobile",
         "os": "Android",
-        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.26.126-1835-release.apk",
-        "version": "3.26.126"
+        "url": "https://bjb-mobile-solutions.github.io/appstore/apps/JBMobile/android/bjb-bjb-tst50-3.26.135-1850-release.apk",
+        "version": "3.26.135"
       }
     ]
   }
